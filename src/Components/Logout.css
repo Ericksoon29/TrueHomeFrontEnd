@@ -1,0 +1,72 @@
+.logout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Inter";
+}
+
+.logout_button{
+    padding: 14px 37px;
+    background: black;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: "Inter";
+    border-radius: 5px;
+    text-align: right;
+    margin-left: 10px;
+}
+
+.logout_title {
+    width: 39%;
+    display: flex;
+    align-items: center;
+    line-height: 10px;
+    text-align: right;
+  }
+
+.user_name{
+    color:darkcyan;
+    text-align: right;
+}
+
+.peliculas-container {
+    display: flex;
+    background: #3c3e44;
+    margin: 20px 10px;
+    border-radius: 10px;
+    align-items: flex-start;
+  }
+
+.container-peliculas {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+.center_table{ 
+margin-left: 2%;
+margin-right: 2%;
+text-align: justify;
+border-collapse: separate;
+}
+
+.tetxt-grey {
+  text-rendering: 70px;
+}
+
+.td{
+  margin: 15px;
+  padding: 15px;
+}
+
+.title_h1{
+  color:white;
+}
+
+.text-grey {
+    color: #9e9e9e;
+}
